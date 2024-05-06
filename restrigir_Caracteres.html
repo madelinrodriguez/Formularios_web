@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // selccionar los cracteres apratir del paramtero de la funcion
+    switch (permitidos){
+    case 'N':
+        permitidos = numeros;
+        break;
+    case 'C':
+        permitidos = caracteres;
+        breack
+    case 'N_C':
+        permitidos = numeros_caracteres;
+        breack    
+    }
+    // obtener la tecla pulsada 
+    var evento = elEvento || window.event;
+    var codigoCaracter = evento.charcode || evento.keyCode;
+    var caracter = String.formCharcode(codigocaracter);
+
+    // comprobacion de teclas especiales
+    // (teclas de borrado y flechas horizontales)
+    var teclas_especial = false;
+    for (var i in teclas_especiales){
+        if (codigoCaracter == teclas_especiales[i]){
+            tecla_especial = true;
+            break;
+        }
+    
+    // comprobar si  la tecla pulsada se  en los caracteres permitidos
+    // o si es una tecla especial return permitidos.indexof(caracter) | = -1 || tecla_especial;
+    }
+</script>
+</body>
+</html>
